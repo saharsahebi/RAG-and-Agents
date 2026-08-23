@@ -1,0 +1,18 @@
+# --- Environment & API Keys ---
+.env
+*.env
+
+# --- Python & Jupyter Notebooks ---
+__pycache__/
+*.py[cod]
+*$py.class
+.ipynb_checkpoints/
+
+# --- Vector Databases & Local Storage ---
+chroma_db/
+*.db
+*.sqlite3
+
+# --- OS Generated Files ---
+.DS_Store
+Thumbs.db
