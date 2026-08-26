@@ -13,9 +13,12 @@ This repository contains practical implementations and code examples exploring R
 - **03_langgraph-email-agent/**
   - `email_agent.ipynb`: An autonomous AI email assistant built with LangGraph and LangChain. It utilizes a ReAct architecture to autonomously fetch unread emails (via IMAP), comprehend their context using a Groq LLM, and generate/dispatch formal, context-aware replies (via SMTP) without manual intervention.
 
+- **04_agentic-rag/**
+  - `document-agentic-rag.ipynb`: An advanced Agentic RAG implementation combining local document retrieval and web search capabilities. Built with LangGraph and LangChain, this ReAct agent autonomously decides whether to query a local vector database (ChromaDB) for specific internal data or search the web (Wikipedia) for general knowledge to accurately answer user queries.
+
 ## Getting Started
 
 ### Prerequisites
 Make sure you have Python installed, then install the required dependencies:
 ```bash
-pip install langchain langchain-core langchain-chroma langchain-huggingface langchain-groq langchain-classic langgraph sentence-transformers beautifulsoup4 pypdf
+pip install langchain langchain-core langchain-chroma langchain-huggingface langchain-groq langchain-classic langgraph sentence-transformers beautifulsoup4 pypdf wikipedia
